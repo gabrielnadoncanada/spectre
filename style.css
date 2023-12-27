@@ -1,0 +1,310 @@
+/*
+ Theme Name:  Divi Child Theme
+ Theme URI:    https://divilife.com
+ Description:  Child Theme for Divi
+ Author:       Tim Strifler
+ Author URI:   https://divilife.com
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+/*****Add any custom CSS below this line*****/
+
+
+body{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.et_pb_button {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size:1.2rem;
+    font-style: normal;
+}
+
+.dipl_text_highlighter_wrapper span {
+    line-height: 0!important;
+}
+
+.dipl_text_highlighter_wrapper span {
+    display: inline!important;
+}
+.et_pb_toggle {
+    border: #D9DBD9;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.et_pb_toggle_title:before {
+    content: "\4c";
+    transition: all .3s ease-in-out;
+}
+.icon_minus_alt2:after {
+    content: "\4f";
+}
+.person-block-style  a {
+    color:#333333;
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.programme-body p {
+    color: #000000;
+}
+
+.programme-body h1, h2, h3 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#007345;
+
+    font-size:50px;
+}
+.programme-body h4 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#007345;
+    font-size:28px;
+}
+
+.programme-body .wp-block-image img {
+    border-radius: 20px;
+}
+.programme-body a {
+    color:#6E815E;
+}
+.upload-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ffff;    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: transparent;
+}
+span.upload-label {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    text-transform: none;
+    font-size: 16px;
+}
+.divi-simple-file-name.daff-bg-transparent {
+    display: none;
+}
+.et_contact_bottom_container {
+    margin-top: 15px;
+    float: none;
+    text-align: center;
+    display: block !important;
+}
+label.upload-file-label.daff-bg-none {
+    display: none;
+}
+.de_dmach_defer_video, .divi-filter-archive-loop, .dmach-acf-item-content, .dmach-acf-value.dmach-acf-video-container, .dmach-icon-image-content img, .dmach-postmeta-item-content {
+    width: auto;
+}
+.et_pb_contact_field_options_wrapper .et_pb_contact_field_options_title {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #FFFFFF !important;
+}
+
+
+/* Position du titre, des meta et de l'extrait */
+
+#dc_blog .title_plus_meta {
+    bottom: auto;
+    z-index: 10;
+}
+
+#dc_blog article.et_pb_post {
+    position: relative;
+}
+
+#dc_blog .post-content {
+    position: absolute;
+    top: auto;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Bonus : Bouton lire la suite */
+
+#dc_blog .more-link {
+    text-align: right  !important;
+    padding: 2px 10px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#dc_blog .more-link:hover {
+    letter-spacing: 2px;
+    padding: 2px 20px;
+    text-align: right  !important;
+}
+
+.programme-body h1, h2, h3 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #6E815E;
+    font-size: 24px;
+}
+
+body{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.et_pb_button {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size:1.2rem;
+    font-style: normal;
+}
+
+.dipl_text_highlighter_wrapper span {
+    line-height: 0!important;
+}
+
+.dipl_text_highlighter_wrapper span {
+    display: inline!important;
+}
+.et_pb_toggle {
+    border: #D9DBD9;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.et_pb_toggle_title:before {
+    content: "\4c";
+    transition: all .3s ease-in-out;
+}
+.icon_minus_alt2:after {
+    content: "\4f";
+}
+.person-block-style  a {
+    color:#333333;
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.programme-body p {
+    color: #000000;
+}
+
+.programme-body h1, h2, h3 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#007345;
+
+    font-size:50px;
+}
+.programme-body h4 {
+    font-family: bebas-neue-pro,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#007345;
+    font-size:28px;
+}
+
+.programme-body .wp-block-image img {
+    border-radius: 20px;
+}
+.programme-body a {
+    color:#6E815E;
+}
+.upload-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ffff;    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: transparent;
+}
+span.upload-label {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    text-transform: none;
+    font-size: 16px;
+}
+.divi-simple-file-name.daff-bg-transparent {
+    display: none;
+}
+.et_contact_bottom_container {
+    margin-top: 15px;
+    float: none;
+    text-align: center;
+    display: block !important;
+}
+label.upload-file-label.daff-bg-none {
+    display: none;
+}
+.de_dmach_defer_video, .divi-filter-archive-loop, .dmach-acf-item-content, .dmach-acf-value.dmach-acf-video-container, .dmach-icon-image-content img, .dmach-postmeta-item-content {
+    width: auto;
+}
+.et_pb_contact_field_options_wrapper .et_pb_contact_field_options_title {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #FFFFFF !important;
+}
+
+
+/* Position du titre, des meta et de l'extrait */
+
+#dc_blog .title_plus_meta {
+    bottom: auto;
+    z-index: 10;
+}
+
+#dc_blog article.et_pb_post {
+    position: relative;
+}
+
+#dc_blog .post-content {
+    position: absolute;
+    top: auto;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Bonus : Bouton lire la suite */
+
+#dc_blog .more-link {
+    text-align: right  !important;
+    padding: 2px 10px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#dc_blog .more-link:hover {
+    letter-spacing: 2px;
+    padding: 2px 20px;
+    text-align: right  !important;
+}
